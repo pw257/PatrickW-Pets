@@ -19,23 +19,23 @@ namespace PatrickW_Pets
 
             Console.WriteLine ("");
 
-            /* Dog dog1 = new Dog("Daisy", "Kent", 23.4);
+            Dog dog1 = new Dog("Daisy", "Kent", 23.4);
 
-            Console.WriteLine("Name: " + dog1.name);
-            Console.WriteLine("Weight: " + dog1.weight);
-            Console.WriteLine(dog1.getTag());
+            Console.WriteLine("Name: " + dog1.Name);
+            Console.WriteLine("Weight: " + dog1.Weight);
+            Console.WriteLine(dog1.GetTag());
             Console.WriteLine(dog1.bark(4));
 
             Console.WriteLine ("");
 
             Cat cat1 = new Cat("Simba", "Maria", 5.2);
 
-            Console.WriteLine("Name: " + cat1.name);
-            Console.WriteLine("Weight: " + cat1.weight);
-            Console.WriteLine(cat1.getTag());
+            Console.WriteLine("Name: " + cat1.Name);
+            Console.WriteLine("Weight: " + cat1.Weight);
+            Console.WriteLine(cat1.GetTag());
             Console.WriteLine(cat1.meow(3));
 
-            Console.WriteLine(""); */
+            Console.WriteLine(""); 
 
         }
     }

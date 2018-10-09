@@ -8,23 +8,23 @@ namespace PatrickW_Pets
 {
     public class Pet
     {
-        public string Type { get; set; }
-        public string Name { get; set; }
-        public string Owner { get; set; }
-        public double Weight { get; set; }
+        public string Type;
+        public string Name;
+        public string Owner;
+        public double Weight;
 
-        public Pet(string type, string name, string owner, double weight)
+        public Pet(string Type, string Name, string Owner, double Weight)
         {
-            Name = name;
-            Type = type;
-            Owner = owner;
-            Weight = weight;
+            this.Type = Type;
+            this.Name = Name;
+            this.Owner = Owner;
+            this.Weight = Weight;
         }
 
-        public object GetTag()
+        public string GetTag()
         {
             Console.WriteLine("If lost, please call Jose");
-            return;
+            return "If lost, call " + Owner;
         }
         
     }
